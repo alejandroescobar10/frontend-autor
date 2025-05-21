@@ -5,7 +5,7 @@ export default defineConfig({
     server: {
         proxy: {
             '/api': {
-                target: 'https://backend-autor-nahe5a602-alejandro-escobar-ms-projects.vercel.app/',
+                target: 'https://backend-autor-d7x5.vercel.app/',
                 changeOrigin: true,
                 rewrite: path => path.replace(/^\/api/, '')
             }
